@@ -1,0 +1,38 @@
+Em computação as expressoes numericas são representadas apenas por () e não usamos nem {} e nem [].
+São os mesmos operadores matematicos ==> +, -, *, /
+
+Usando entrada de variaveis, colocamos as operações em calculos para as operações!!!
+
+EX: ((8 + 2) * 5) / 10  NÃO É A MESMA COISA QUE {[(8 + 2) * 5] / 10} ==> NÃO SE USA ESSA EXPRESSÃO EM PROGRAMAÇÃO
+
+Variaveis podem ser do tipo string ou inteiro.
+
+String representadas por "" são usadas para demarcar texto
+Inteiro representadas por numeros 11 ou float = 9,00 entre outros estilos de numeros.
+
+Exercicio.
+
+Sabendo que voc~e precisa guardar 30 % do seu salario, quanto você podera gastar e quanto tera que guardar?
+
+Resolução:::
+
+EM JAVASCRIPT
+
+COPIE TODO CODIGO ABAIXO E EXECUTE NO NAVEGADOR NA AREA CONSOLE
+
+x = 100
+w = 30
+
+alert("Digite o salario do dia 20")
+d20 = prompt()
+d20 = parseInt(d20)
+alert("Digite o salario do dia 5")
+d5 = prompt()
+d5 = parseInt(d5)
+patrimonio = (d20 - d5)
+emprestimo = (patrimonio * w) / x
+liquido = patrimonio - emprestimo
+alert("O banco pega R$" + emprestimo + ", todo mês da minha conta!!!")
+alert("Eu recebo em dinheiro o valor de R$" + liquido + ", depois de pagar o meu emprestimo!!!") 
+
+
