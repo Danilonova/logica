@@ -1,0 +1,42 @@
+Variaveis são dados que usamos para armazenar em memoria.
+
+EX: 
+A1 = 1    B1 = 10
+A2 = 5    B2 = 6
+A3 = 0    B3 = 2
+
+Uma vez armazenado em memoria, apenas usamos para digitar a variavel escolhida e aparece o numero.
+EX:
+
+=>> A1
+= 1
+
+=>> A2
+= 5
+
+EX: Vamos armazenar o salario de joão que ganha R$ 2000,00 por mês e depois calcular 30% desse salario.
+
+S = 2000
+
+R = S * 30 / 100
+R = 600 
+
+Soma de duas variaveis A & B
+
+A = 5              A = 9
+B = 10             B = 3
+C = A + B          
+mostre(c)       mostre(A + B)
+
+Escreva um numero qualquer e some 20 com esse numero. Qual é o resultado?
+
+A = LEIA()
+B = 20
+C = A + B
+
+MOSTRE (C)
+
+EM JAVASCRIPT 
+MOSTRE = ALERT
+LEIA = PROMPT
+CONVERTA = PARSEINT
