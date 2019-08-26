@@ -1,0 +1,106 @@
+OPERADORES CONDICIONAIS
+mostre == alert
+leia == prompt
+escreva == parseInt
+
+2 OPERAÇÕES - ALGORITMOS
+
+mostre("Digite a opção do joão")
+joao = leia()
+se (joao = 'academia')
+mostre('forte');
+se nao
+mostre ('inteligente');
+fim
+
+Agora todos os exemplos em javascript
+
+2 OPERAÇÕES - JS
+
+joao = prompt("Digite a opção de João");
+if(joao == 'academia'){
+	alert('forte');
+}
+else{
+	alert('nenhuma opção digitada')
+}
+
+3 OPERAÇÕES - JS
+
+numero = prompt("Digite um numero qualquer")
+if(numero == 1){
+	alert("ola" + " " + numero);
+}
+else if(numero == 2){
+	alert("ola amigo sou o numero dois");
+}
+else{
+	alert("sou qualquer outro numero")
+}
+
+4 OPERAÇÕES - JS
+
+jose = prompt("Enter the desired option");
+if(jose == 'josefina'){
+	alert('love');
+}
+else if(jose == 'work'){
+	alert('money');
+}
+else {
+	if(jose == 'pub'){
+	alert('drunk');
+}
+else {
+	alert("Another option typed");
+ }
+}
+
+5 OU + OPERAÇÕES - JS
+
+maria = prompt("Enter the desired option");
+switch(maria) {
+case 'work':
+    alert("money");
+break;
+case 'school':
+    alert('intelligent');
+break;
+case 'pub':
+    alert("drunk");
+break;
+case 'friends':
+    alert('roll');
+break;
+case 'boyfriend':
+    alert("love");
+break;
+
+default:
+    alert("any other option");
+break;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
