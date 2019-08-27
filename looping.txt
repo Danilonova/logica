@@ -1,0 +1,33 @@
+ Para realizar looping é importante usar while ou for.
+
+ alert("DIGITE UM NUMERO")
+ a = prompt()
+ a = parseInt(a)
+
+ while(a<3){
+ alert(a)
+ a = a+1
+ }
+
+ while((a<3) && (a==3)){
+	alert(a)
+	a = a + 1
+}
+
+for(a=1; i<3; a=a+1){
+	alert(a)
+}
+
+for(a=1; ((a<3) || (a==3)); a=a+1){
+	
+	alert(a)
+}
+tabuada
+a=1
+b=2
+while(a<=10){
+	document.write(a + "x" + b + "=" + (a*b))
+	a = a + 1
+
+
+}
