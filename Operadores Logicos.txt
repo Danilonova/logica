@@ -1,0 +1,31 @@
+Operadores Logicos São trabalham sobre valores booleanos, tanto os valores de entrada como o de saída são desse tipo.
+
+LOGICA ----- JAVASCRIPT               
+  E    -----    &&
+ OU    -----    ||
+NÃO    -----    !
+DIF    -----    !=
+IGUAl  -----    ==
+MAIOR  -----    >
+MENOR  -----    <
+MAIOR = ----    >=
+MENOR = ----    <=
+PARTE = ----    ~=            
+
+Faça as alterações e teste todas as condições.
+
+alert("escreva o numero para variavel A")
+A = prompt()
+alert("escreva o numero para variavel B")
+B = prompt()
+alert("escreva o numero para variavel C")
+C = prompt()
+alert("escreva o numero para variavel D")
+D = prompt()
+
+if(A == B || C == D){
+	alert("true")
+}else{
+	alert("falso")
+}
+
