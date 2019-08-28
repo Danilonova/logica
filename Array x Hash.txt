@@ -1,0 +1,9 @@
+Array é um coleção de variaveis       |     Hash é uma estrutura espaço em memoria - json
+EX: A=[1,2,3,4,5,6,7,8,9,98,55,43,03] |     EX: K={Nome:"danilo", CPF:"333", IDADE:"30", SEXO:"M", Endereço:"rua maua"}
+A[3] = 2                              |     k.Nome = danilo                          
+A[4] = 3                              |     k.CPF = 333
+A[0] = 1                              |     K.SEXO = M
+A[10] = 98                            |     
+A[11] = 55                            |     danilo={Nome:"danilo", CPF:"333", IDADE:"30", SEXO:"M", Endereço:"rua maua"}
+A[12] = 43                            |     ana={Nome:"ana", CPF:"222", IDADE:"27", SEXO:"F", Endereço:"rua bonfim"}
+                                      |
